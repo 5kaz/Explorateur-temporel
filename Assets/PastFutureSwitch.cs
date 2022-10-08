@@ -5,7 +5,6 @@ using UnityEngine;
 public class PastFutureSwitch : MonoBehaviour
 {
     [SerializeField] public Transform player;
-    //[SerializeField] public Transform futurePlayer;
     [SerializeField] public Cinemachine.CinemachineVirtualCamera vcamSwitchObject;
 
     private float timeStamp;

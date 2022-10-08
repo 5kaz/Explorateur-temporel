@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8771293121035679295}
   - component: {fileID: 8771293121035679280}
   m_Layer: 0
-  m_Name: Cube past
+  m_Name: Cube past 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3ba90f9e4e911004c98a691f08df1d7a, type: 2}
+  - {fileID: 2100000, guid: 556852c7bdd40ea48ae8c12efdb489f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
