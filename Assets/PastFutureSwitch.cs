@@ -14,6 +14,16 @@ public class PastFutureSwitch : MonoBehaviour
     void Start()
     {
         timeStamp = Time.time + 2;
+
+        pastPlayer.GetComponent<Collider>().enabled = false;
+        futurePlayer.GetComponent<Collider>().enabled = true;
+
+
+        vcamSwitchObject.enabled = false;
+        vcamSwitchObject.LookAt = futurePlayer;
+        vcamSwitchObject.Follow = futurePlayer;
+        vcamSwitchObject.OnTargetObjectWarped(futurePlayer, new Vector3(0f, 20f, 0f));
+        vcamSwitchObject.enabled = true;
     }
 
     // Update is called once per frame
@@ -23,10 +33,14 @@ public class PastFutureSwitch : MonoBehaviour
         {
 
             timeStamp = Time.time + 1;
-            Debug.Log("Switch past / future");
+            //Debug.Log("Switch past / future");
 
             if (vcamSwitchObject.Follow == pastPlayer)
             {
+                pastPlayer.GetComponent<Collider>().enabled = false;
+                futurePlayer.GetComponent<Collider>().enabled = true;
+
+
                 vcamSwitchObject.enabled = false;
                 vcamSwitchObject.LookAt = futurePlayer;
                 vcamSwitchObject.Follow = futurePlayer;
@@ -36,12 +50,14 @@ public class PastFutureSwitch : MonoBehaviour
             }
             else
             {
+                pastPlayer.GetComponent<Collider>().enabled = true;
+                futurePlayer.GetComponent<Collider>().enabled = false;
+
                 vcamSwitchObject.enabled = false;
                 vcamSwitchObject.LookAt = pastPlayer;
                 vcamSwitchObject.Follow = pastPlayer;
                 vcamSwitchObject.OnTargetObjectWarped(pastPlayer, new Vector3(0f, -20f, 0f));
                 vcamSwitchObject.enabled = true;
-
             }
         }
     }
