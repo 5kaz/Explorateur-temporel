@@ -165,7 +165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461552706}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7116a6965c4abcf47ac7f313b73801ed, type: 3}
   m_Name: 
@@ -181,7 +181,7 @@ CharacterController:
   m_GameObject: {fileID: 461552706}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
@@ -270,7 +270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &765888233
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -877,8 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ea63057a90d1040a8fde81aca23534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pastPlayer: {fileID: 765888236}
-  futurePlayer: {fileID: 1944339903}
+  player: {fileID: 1944339903}
   vcamSwitchObject: {fileID: 1464549527}
 --- !u!1 &1687258581
 GameObject:
@@ -1086,6 +1085,8 @@ GameObject:
   - component: {fileID: 1944339906}
   - component: {fileID: 1944339905}
   - component: {fileID: 1944339904}
+  - component: {fileID: 1944339908}
+  - component: {fileID: 1944339907}
   m_Layer: 0
   m_Name: FuturePlayer
   m_TagString: Untagged
@@ -1170,6 +1171,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944339902}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!143 &1944339907
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944339902}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1944339908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944339902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7116a6965c4abcf47ac7f313b73801ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1944339907}
+  speed: 5
 --- !u!1 &1956342789
 GameObject:
   m_ObjectHideFlags: 0

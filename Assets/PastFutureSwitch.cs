@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PastFutureSwitch : MonoBehaviour
 {
-    [SerializeField] public Transform pastPlayer;
-    [SerializeField] public Transform futurePlayer;
+    [SerializeField] public Transform player;
+    //[SerializeField] public Transform futurePlayer;
     [SerializeField] public Cinemachine.CinemachineVirtualCamera vcamSwitchObject;
 
     private float timeStamp;
@@ -13,17 +13,7 @@ public class PastFutureSwitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timeStamp = Time.time + 2;
-
-        pastPlayer.GetComponent<Collider>().enabled = false;
-        futurePlayer.GetComponent<Collider>().enabled = true;
-
-
-        vcamSwitchObject.enabled = false;
-        vcamSwitchObject.LookAt = futurePlayer;
-        vcamSwitchObject.Follow = futurePlayer;
-        vcamSwitchObject.OnTargetObjectWarped(futurePlayer, new Vector3(0f, 20f, 0f));
-        vcamSwitchObject.enabled = true;
+        timeStamp = Time.time;
     }
 
     // Update is called once per frame
@@ -35,28 +25,26 @@ public class PastFutureSwitch : MonoBehaviour
             timeStamp = Time.time + 1;
             //Debug.Log("Switch past / future");
 
-            if (vcamSwitchObject.Follow == pastPlayer)
+            if (player.position.y > 19)
             {
-                pastPlayer.GetComponent<Collider>().enabled = false;
-                futurePlayer.GetComponent<Collider>().enabled = true;
-
-
                 vcamSwitchObject.enabled = false;
-                vcamSwitchObject.LookAt = futurePlayer;
-                vcamSwitchObject.Follow = futurePlayer;
-                vcamSwitchObject.OnTargetObjectWarped(futurePlayer, new Vector3(0f, 20f, 0f));
+                player.GetComponent<CharacterController>().enabled = false;
+                player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - 20, player.transform.position.z);
+                vcamSwitchObject.LookAt = player;
+                vcamSwitchObject.Follow = player;
+                vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, -20f, 0f));
+                player.GetComponent<CharacterController>().enabled = true;
                 vcamSwitchObject.enabled = true;
-
             }
             else
             {
-                pastPlayer.GetComponent<Collider>().enabled = true;
-                futurePlayer.GetComponent<Collider>().enabled = false;
-
                 vcamSwitchObject.enabled = false;
-                vcamSwitchObject.LookAt = pastPlayer;
-                vcamSwitchObject.Follow = pastPlayer;
-                vcamSwitchObject.OnTargetObjectWarped(pastPlayer, new Vector3(0f, -20f, 0f));
+                player.GetComponent<CharacterController>().enabled = false;
+                player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 20, player.transform.position.z);
+                vcamSwitchObject.LookAt = player;
+                vcamSwitchObject.Follow = player;
+                vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, 20f, 0f));
+                player.GetComponent<CharacterController>().enabled = true;
                 vcamSwitchObject.enabled = true;
             }
         }
