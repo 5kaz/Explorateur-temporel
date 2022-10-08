@@ -6,6 +6,7 @@ public class DeadScreen : MonoBehaviour
 {
     private CanvasGroup cg;
     private bool display = false;
+    private bool dead = false;
     private float fadeSpeed = 1.0f;
     private float timeStamp;
     private string[] deathSamplePhrases;
@@ -31,10 +32,11 @@ public class DeadScreen : MonoBehaviour
         {
             cg.alpha -= 0.01f * fadeSpeed;
         }
-        if (Input.GetKey("space") && (timeStamp + 2.0f) <= Time.time)
+        if (Input.GetKey("space") && dead && (timeStamp + 2.0f) <= Time.time)
         {
             display = false;
             gameManager.GoBackToLastCheckpoint();
+            dead = false;
         }
     }
 
@@ -44,6 +46,7 @@ public class DeadScreen : MonoBehaviour
         player.enabled = false;
         switchTime.enabled = false;
         timeStamp = Time.time;
+        dead = true;
     }
     
 }
