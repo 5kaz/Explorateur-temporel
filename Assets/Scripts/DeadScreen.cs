@@ -8,7 +8,7 @@ public class DeadScreen : MonoBehaviour
     private bool display = false;
     private float fadeSpeed = 1.0f;
     private float timeStamp;
-
+    private string[] deathSamplePhrases;
 
     [SerializeField] PlayerMovement player;
     [SerializeField] PastFutureSwitch switchTime;
@@ -18,7 +18,6 @@ public class DeadScreen : MonoBehaviour
     void Start()
     {
         cg = GetComponent<CanvasGroup>();
-        Invoke("DisplayDeadScreen",3.0f) ;
     }
 
     // Update is called once per frame
