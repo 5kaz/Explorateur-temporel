@@ -44,7 +44,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (direction != old_direction)
         {
-
             animationObject.SetDirection(direction);
         }
 
