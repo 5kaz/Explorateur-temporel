@@ -10,11 +10,13 @@ public class ControlsHelper : MonoBehaviour
     public GameObject movementsCanvas;
     [SerializeField]
     public GameObject switchCanvas;
+    [SerializeField]
+    public GameObject checkpointCanvas;
 
     CanvasGroup cg;
     bool disappear = false;
     float fadeSpeed = 0.5f;
-    float displayDuration = 4.0f;
+    float displayDuration = 3.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,7 @@ public class ControlsHelper : MonoBehaviour
             {
                 movementsCanvas.SetActive(true);
                 switchCanvas.SetActive(false);
+                checkpointCanvas.SetActive(false);
                 Invoke("HideControls", displayDuration);
             }
             else
@@ -39,18 +42,26 @@ public class ControlsHelper : MonoBehaviour
                 movementsCanvas.SetActive(false);
             }
         }
-        else // SWITCH
+        else if (control == 1) // SWITCH
         {
             if (PlayerPrefs.GetInt("timePlayed", -1) <= 2)
             {
                 switchCanvas.SetActive(true);
                 movementsCanvas.SetActive(false);
+                checkpointCanvas.SetActive(false);
                 Invoke("HideControls", displayDuration);
             }
             else
             {
                 switchCanvas.SetActive(false);
             }
+        }
+        else if (control == 2) // CHECKPOINT
+        {
+            checkpointCanvas.SetActive(true);
+            movementsCanvas.SetActive(false);
+            switchCanvas.SetActive(false);
+            Invoke("HideControls", displayDuration);
         }
     }
 

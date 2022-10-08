@@ -10,12 +10,12 @@ public class LookAtCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.rotation = Quaternion.LookRotation(transform.position - _object.transform.position);
+        //transform.rotation = Quaternion.LookRotation(transform.position - _object.transform.position);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.rotation = Quaternion.LookRotation(transform.position - _object.transform.position);
     }
 }
