@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="144">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9F851311-A776-2BB0-D0DE-C1D38D011FA4}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3309483646" Name="PAST_PRES"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{999FC823-81DC-CF2D-1DC5-80CCCEED196F}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="75880264" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_bellOneht_01.wav</ShortName>
+					<Path>Media/75880264.wem</Path>
+					<CachePath>SFX/AMB_bellOneht_01_E95C51AB.wem</CachePath>
+				</File>
+				<File Id="82654447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk07.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk07_D0E82572.wem</CachePath>
+				</File>
+				<File Id="215232237" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Windchimes_dist_04.wav</ShortName>
+					<Path>Media/215232237.wem</Path>
+					<CachePath>SFX/AMB_Windchimes_dist_04_7BD18E98.wem</CachePath>
+				</File>
+				<File Id="227589923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk01.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk01_D6004413.wem</CachePath>
+				</File>
+				<File Id="256447766" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Windchimes_dist_07.wav</ShortName>
+					<Path>Media/256447766.wem</Path>
+					<CachePath>SFX/AMB_Windchimes_dist_07_9B1692BA.wem</CachePath>
+				</File>
+				<File Id="257307624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk05.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk05_54F67197.wem</CachePath>
+				</File>
+				<File Id="266063967" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Windgust_05.wav</ShortName>
+					<Path>Media/266063967.wem</Path>
+					<CachePath>SFX/AMB_Cave_Windgust_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="278529841" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk10.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="294592149" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Windchimes_dist_03.wav</ShortName>
+					<Path>Media/294592149.wem</Path>
+					<CachePath>SFX/AMB_Windchimes_dist_03_8A4AA1AA.wem</CachePath>
+				</File>
+				<File Id="309826148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk05.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk05_531D99C9.wem</CachePath>
+				</File>
+				<File Id="328005774" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_ringing_01.wav</ShortName>
+					<Path>Media/328005774.wem</Path>
+					<CachePath>SFX/AMB_ringing_01_E56CFF6C.wem</CachePath>
+				</File>
+				<File Id="330449822" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Windgust_03.wav</ShortName>
+					<Path>Media/330449822.wem</Path>
+					<CachePath>SFX/AMB_Cave_Windgust_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="332208263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk09.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk09_8A513701.wem</CachePath>
+				</File>
+				<File Id="363338586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_stone_walk04.wav</ShortName>
+					<CachePath>SFX/SFX_stone_walk04_0862E0EE.wem</CachePath>
+				</File>
+				<File Id="365498536" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk02.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk02_1449E350.wem</CachePath>
+				</File>
+				<File Id="368862133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk02.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="370146242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk08.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk08_F9BDDF69.wem</CachePath>
+				</File>
+				<File Id="389150782" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Windchimes_dist_06.wav</ShortName>
+					<Path>Media/389150782.wem</Path>
+					<CachePath>SFX/AMB_Windchimes_dist_06_9E02CA57.wem</CachePath>
+				</File>
+				<File Id="389980878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_stone_walk01.wav</ShortName>
+					<CachePath>SFX/SFX_stone_walk01_3F87E360.wem</CachePath>
+				</File>
+				<File Id="405032744" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Windgust_01.wav</ShortName>
+					<Path>Media/405032744.wem</Path>
+					<CachePath>SFX/AMB_Cave_Windgust_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="438552993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk01.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk01_7717CA80.wem</CachePath>
+				</File>
+				<File Id="468246312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_stone_walk02.wav</ShortName>
+					<CachePath>SFX/SFX_stone_walk02_BC2687E5.wem</CachePath>
+				</File>
+				<File Id="468339197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk04.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk04_17EB930F.wem</CachePath>
+				</File>
+				<File Id="474591875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_stone_walk06.wav</ShortName>
+					<CachePath>SFX/SFX_stone_walk06_92A01584.wem</CachePath>
+				</File>
+				<File Id="530043103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk09.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk09_50EEA4B9.wem</CachePath>
+				</File>
+				<File Id="533339735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk06.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk06_72B94CF9.wem</CachePath>
+				</File>
+				<File Id="534908831" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Windgust_04.wav</ShortName>
+					<Path>Media/534908831.wem</Path>
+					<CachePath>SFX/AMB_Cave_Windgust_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="561601008" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_bellOneht_03.wav</ShortName>
+					<Path>Media/561601008.wem</Path>
+					<CachePath>SFX/AMB_bellOneht_03_69EECEFE.wem</CachePath>
+				</File>
+				<File Id="585131270" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Windchimes_dist_05.wav</ShortName>
+					<Path>Media/585131270.wem</Path>
+					<CachePath>SFX/AMB_Windchimes_dist_05_A24682DB.wem</CachePath>
+				</File>
+				<File Id="586303674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Clock_toPresent.wav</ShortName>
+					<CachePath>SFX/UI_Clock_toPresent_1247D879.wem</CachePath>
+				</File>
+				<File Id="599111526" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk03.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk03_24EAFA61.wem</CachePath>
+				</File>
+				<File Id="608662090" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Wind.wav</ShortName>
+					<Path>Media/608662090.wem</Path>
+					<CachePath>SFX/AMB_Cave_Wind_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="638813761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk03.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk03_E02976CD.wem</CachePath>
+				</File>
+				<File Id="649906056" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Forest_day_wind01.wav</ShortName>
+					<Path>Media/649906056.wem</Path>
+					<CachePath>SFX/AMB_Forest_day_wind01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="652486248" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Windgust_02.wav</ShortName>
+					<Path>Media/652486248.wem</Path>
+					<CachePath>SFX/AMB_Cave_Windgust_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="658233615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk04.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk04_C04B04AA.wem</CachePath>
+				</File>
+				<File Id="683342263" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_ringing_02.wav</ShortName>
+					<Path>Media/683342263.wem</Path>
+					<CachePath>SFX/AMB_ringing_02_00B03C16.wem</CachePath>
+				</File>
+				<File Id="763882737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_stone_walk03.wav</ShortName>
+					<CachePath>SFX/SFX_stone_walk03_1D2E200E.wem</CachePath>
+				</File>
+				<File Id="789598022" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_bell_01.wav</ShortName>
+					<Path>Media/789598022.wem</Path>
+					<CachePath>SFX/AMB_bell_01_65156629.wem</CachePath>
+				</File>
+				<File Id="799006786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk07.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk07_BA1B4466.wem</CachePath>
+				</File>
+				<File Id="922691867" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_bellOneht_02.wav</ShortName>
+					<Path>Media/922691867.wem</Path>
+					<CachePath>SFX/AMB_bellOneht_02_A321FE76.wem</CachePath>
+				</File>
+				<File Id="932567349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk08.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk08_5B8DC71C.wem</CachePath>
+				</File>
+				<File Id="941973285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_water_walk06.wav</ShortName>
+					<CachePath>SFX/SFX_water_walk06_544064EE.wem</CachePath>
+				</File>
+				<File Id="961589469" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_stone_walk05.wav</ShortName>
+					<CachePath>SFX/SFX_stone_walk05_1BED90CC.wem</CachePath>
+				</File>
+				<File Id="993087017" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Windchimes_dist_02.wav</ShortName>
+					<Path>Media/993087017.wem</Path>
+					<CachePath>SFX/AMB_Windchimes_dist_02_C3D962AA.wem</CachePath>
+				</File>
+				<File Id="993098626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Clock_toPast.wav</ShortName>
+					<CachePath>SFX/UI_Clock_toPast_E7DD45E3.wem</CachePath>
+				</File>
+				<File Id="993226856" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Windchimes_dist_01.wav</ShortName>
+					<Path>Media/993226856.wem</Path>
+					<CachePath>SFX/AMB_Windchimes_dist_01_F8C2B62F.wem</CachePath>
+				</File>
+				<File Id="1002969874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_stone_walk07.wav</ShortName>
+					<CachePath>SFX/SFX_stone_walk07_71DEDC78.wem</CachePath>
+				</File>
+				<File Id="1073736698" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_wood_walk10.wav</ShortName>
+					<CachePath>SFX/SFX_wood_walk10_33A343A1.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="724118805" Name="Have_U_Ever_Been_Outside (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="774223844" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<Sharesets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Sharesets>
+			</Plugins>
+			<Events>
+				<Event Id="1117531639" Name="AMB" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="75880264"/>
+						<MediaRef Id="215232237"/>
+						<MediaRef Id="256447766"/>
+						<MediaRef Id="266063967"/>
+						<MediaRef Id="294592149"/>
+						<MediaRef Id="328005774"/>
+						<MediaRef Id="330449822"/>
+						<MediaRef Id="389150782"/>
+						<MediaRef Id="405032744"/>
+						<MediaRef Id="534908831"/>
+						<MediaRef Id="561601008"/>
+						<MediaRef Id="585131270"/>
+						<MediaRef Id="608662090"/>
+						<MediaRef Id="649906056"/>
+						<MediaRef Id="652486248"/>
+						<MediaRef Id="683342263"/>
+						<MediaRef Id="789598022"/>
+						<MediaRef Id="922691867"/>
+						<MediaRef Id="993087017"/>
+						<MediaRef Id="993226856"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="724118805"/>
+						</Custom>
+						<Sharesets>
+							<PluginRef Id="48620415"/>
+							<PluginRef Id="3164629247"/>
+						</Sharesets>
+					</PluginRefs>
+				</Event>
+				<Event Id="310261441" Name="Footstep_stone" DurationType="OneShot" DurationMin="0.15430303" DurationMax="0.27829233">
+					<MediaRefs>
+						<MediaRef Id="363338586"/>
+						<MediaRef Id="389980878"/>
+						<MediaRef Id="468246312"/>
+						<MediaRef Id="474591875"/>
+						<MediaRef Id="763882737"/>
+						<MediaRef Id="961589469"/>
+						<MediaRef Id="1002969874"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="774223844"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="4154792307" Name="Footstep_water" DurationType="OneShot" DurationMin="0.2795388" DurationMax="0.56418186">
+					<MediaRefs>
+						<MediaRef Id="82654447"/>
+						<MediaRef Id="227589923"/>
+						<MediaRef Id="278529841"/>
+						<MediaRef Id="309826148"/>
+						<MediaRef Id="363338586"/>
+						<MediaRef Id="368862133"/>
+						<MediaRef Id="389980878"/>
+						<MediaRef Id="468246312"/>
+						<MediaRef Id="474591875"/>
+						<MediaRef Id="530043103"/>
+						<MediaRef Id="599111526"/>
+						<MediaRef Id="658233615"/>
+						<MediaRef Id="763882737"/>
+						<MediaRef Id="932567349"/>
+						<MediaRef Id="941973285"/>
+						<MediaRef Id="961589469"/>
+						<MediaRef Id="1002969874"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="774223844"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="606549629" Name="Footstep_wood" DurationType="OneShot" DurationMin="0.17927812" DurationMax="0.26551703">
+					<MediaRefs>
+						<MediaRef Id="257307624"/>
+						<MediaRef Id="332208263"/>
+						<MediaRef Id="365498536"/>
+						<MediaRef Id="370146242"/>
+						<MediaRef Id="438552993"/>
+						<MediaRef Id="468339197"/>
+						<MediaRef Id="533339735"/>
+						<MediaRef Id="638813761"/>
+						<MediaRef Id="799006786"/>
+						<MediaRef Id="1073736698"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="774223844"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1702484864" Name="UI_Clock_toPast" DurationType="OneShot" DurationMin="2.100051" DurationMax="2.100051">
+					<MediaRefs>
+						<MediaRef Id="993098626"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1666516870" Name="UI_Clock_toPres" DurationType="OneShot" DurationMin="1.7069652" DurationMax="1.7069652">
+					<MediaRefs>
+						<MediaRef Id="586303674"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9CD2A328-22E5-9778-41F1-5E180F19EF73}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4AC83D6E-A4AE-41CB-BE3F-0A2C766EA146}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{4AC83D6E-A4AE-41CB-BE3F-0A2C766EA146}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="PAST_PRES" ID="{C7E4CF07-0EB9-4B87-B325-C8AB440B267B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

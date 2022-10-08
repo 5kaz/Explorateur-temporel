@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{96ACB437-D10F-46C0-9B49-0F9E0698A574}" ShortID="532197000">
+					<ChildrenList>
+						<Event Name="UI_Clock_toPast" ID="{7EC9F51A-6F9B-46BE-91E3-5EEB36D4302A}">
+							<ChildrenList>
+								<Action Name="" ID="{6FE04A93-12A2-44CE-8D28-9332B611294F}" ShortID="581078981">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Clock_toPast" ID="{BEFAB3DD-B3A3-4360-B57B-19CB3A34EE22}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Clock_toPres" ID="{9DE4D4A9-59D7-4F4E-A9A9-7550FADB6BF6}">
+							<ChildrenList>
+								<Action Name="" ID="{16EC9948-CC84-4CA3-9BA9-5B8098B58B39}" ShortID="123238189">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Clock_toPresent" ID="{569FF8DA-E5CC-4E71-8B28-B426D283FEF7}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Select" ID="{B1628209-6686-4AAA-B990-2067F30ED94C}"/>
+						<Event Name="UI_Cursor_moove" ID="{E5E2FC3F-515A-40A5-B6C1-5FB908211300}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PLAYER" ID="{5D715F08-44CE-4FAE-BD73-7F519EB3E278}" ShortID="668175812">
+					<ChildrenList>
+						<Event Name="Footstep_stone" ID="{8C3550A6-2AC4-4AA9-B3E2-962E02DB0464}">
+							<ChildrenList>
+								<Action Name="" ID="{22540E04-45B6-4FC9-AEDC-D9E26A07EE24}" ShortID="646422749">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_stone" ID="{AA8416ED-5A29-4F57-884D-1698FC9F5835}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footstep_water" ID="{A494B985-E407-4E66-82D6-A0DA9417DDB5}">
+							<ChildrenList>
+								<Action Name="" ID="{89C01F57-585D-47BE-B1E2-7C101E8CB54C}" ShortID="834484715">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_water" ID="{A9E442A8-BF23-4AFD-9BF4-46A8AF9A7BF6}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footstep_wood" ID="{06D39823-004D-4CD1-BEFB-EC18ED14A2C0}">
+							<ChildrenList>
+								<Action Name="" ID="{182A1B8A-CDCF-42C4-995F-1473099E3CF5}" ShortID="1055260357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_wood" ID="{FF608635-061A-49C4-A6C0-824D886A5439}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="WORLD" ID="{5F9B5DEC-D93B-484C-98DC-A466A5711FA6}" ShortID="83515044">
+					<ChildrenList>
+						<Event Name="AMB" ID="{CA1F7898-8C90-4CA4-936F-55405762D00A}">
+							<ChildrenList>
+								<Action Name="" ID="{FFF26337-E3F2-45A6-BD07-70E672C4923A}" ShortID="312214153">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB" ID="{32853AFB-5879-472C-AB90-1596985CE490}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="START_LVL" ID="{E72129C2-3828-4C79-9295-44697FFF4BD7}">
+					<ChildrenList>
+						<Action Name="" ID="{EB1920D5-966E-4C59-93E0-AA09651D78DC}" ShortID="890638060">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{CA1F7898-8C90-4CA4-936F-55405762D00A}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
