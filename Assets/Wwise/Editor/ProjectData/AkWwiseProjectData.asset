@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 0f7a1fcaa0aa8844b7d9e664180cf54a
     GuidInternal: 
-    m_lastTime: -8585363571167201281
+    m_lastTime: -8585363524564224278
     List:
     - name: Main
       guid: 5130e4ba484d454fa3792c2d1e12f172
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51c84a0afacb114ea759d5a1a14552c8
     GuidInternal: 
-    m_lastTime: -8585363600899597882
+    m_lastTime: -8585363496716807434
     List:
     - name: AMB
       guid: 98781fca908ca44c936f55405762d00a
@@ -176,6 +176,123 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: MUS_Brass
+      guid: e4be2d8e32ff8b49a053dcb061e9e7e5
+      id: 3492974204
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 55d66d15a2e9244ba6061804265f5dc4
+      - ElementName: MUS_Brass
+        ObjectType: 3
+        guid: e4be2d8e32ff8b49a053dcb061e9e7e5
+      Path: Events\Default Work Unit\MUSIC\MUS_Brass
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MUS_Harpe
+      guid: 47c891ed20973440a8055c3ee833beab
+      id: 686963831
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 55d66d15a2e9244ba6061804265f5dc4
+      - ElementName: MUS_Harpe
+        ObjectType: 3
+        guid: 47c891ed20973440a8055c3ee833beab
+      Path: Events\Default Work Unit\MUSIC\MUS_Harpe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MUS_String
+      guid: 1277be3eb22f074f869887e3e429f2b0
+      id: 4154371538
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 55d66d15a2e9244ba6061804265f5dc4
+      - ElementName: MUS_String
+        ObjectType: 3
+        guid: 1277be3eb22f074f869887e3e429f2b0
+      Path: Events\Default Work Unit\MUSIC\MUS_String
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MUS_Wind_A
+      guid: 0cea7be10f10b640bc31246ffca4a16e
+      id: 2810169327
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 55d66d15a2e9244ba6061804265f5dc4
+      - ElementName: MUS_Wind_A
+        ObjectType: 3
+        guid: 0cea7be10f10b640bc31246ffca4a16e
+      Path: Events\Default Work Unit\MUSIC\MUS_Wind_A
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MUS_Wind_B
+      guid: af8348b964147c4c8e9b6ac52a835add
+      id: 2810169324
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 55d66d15a2e9244ba6061804265f5dc4
+      - ElementName: MUS_Wind_B
+        ObjectType: 3
+        guid: af8348b964147c4c8e9b6ac52a835add
+      Path: Events\Default Work Unit\MUSIC\MUS_Wind_B
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MUSIC
+      guid: 55d66d15a2e9244ba6061804265f5dc4
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 55d66d15a2e9244ba6061804265f5dc4
+      Path: Events\Default Work Unit\MUSIC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PLAYER
       guid: 085f715dce44ae4fbd737f519eb3e278
       id: 1069431850
@@ -190,6 +307,46 @@ MonoBehaviour:
         ObjectType: 4
         guid: 085f715dce44ae4fbd737f519eb3e278
       Path: Events\Default Work Unit\PLAYER
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SET_PAST
+      guid: d6e778a93124414a82d4e75815630797
+      id: 1101408834
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: WORLD
+        ObjectType: 4
+        guid: ec5d9b5f3bd94c4898dca466a5711fa6
+      - ElementName: SET_PAST
+        ObjectType: 3
+        guid: d6e778a93124414a82d4e75815630797
+      Path: Events\Default Work Unit\WORLD\SET_PAST
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SET_PRESENT
+      guid: e5f1eb08b6ab2b4f9915e0c67bcae836
+      id: 2623080059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: WORLD
+        ObjectType: 4
+        guid: ec5d9b5f3bd94c4898dca466a5711fa6
+      - ElementName: SET_PRESENT
+        ObjectType: 3
+        guid: e5f1eb08b6ab2b4f9915e0c67bcae836
+      Path: Events\Default Work Unit\WORLD\SET_PRESENT
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -336,7 +493,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6e3dc84aaea4cb41be3f0a2c766ea146
     GuidInternal: 
-    m_lastTime: -8585363600899518385
+    m_lastTime: -8585363496716727415
     List:
     - name: PAST_PRES
       guid: 07cfe4c7b90e874bb325c8ab440b267b
@@ -394,8 +551,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585363845104841414
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b000000a53a01001a550100
+  ExpandedFileSystemItemIds: 01000000020000000300000005000000060000000700000008000000090000000a0000000b00000013000000a53a01001a550100
+  ExpandedWaapiItemIds: 020000000300000005000000060000000700000008000000090000000a0000000b000000130000005801000059010000a53a01001a550100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

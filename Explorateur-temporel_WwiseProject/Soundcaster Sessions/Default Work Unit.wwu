@@ -10,7 +10,36 @@
 							<Position X="0" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="PAST_PRES" ID="{C7E4CF07-0EB9-4B87-B325-C8AB440B267B}"/>
+							<Value>0.15</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="AMB&amp;MUS" ID="{E6CB9BF5-F391-46EA-A203-67DC512ECC8E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="START_LVL" ID="{E72129C2-3828-4C79-9295-44697FFF4BD7}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SET_PAST" ID="{A978E7D6-2431-4A41-82D4-E75815630797}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SET_PRESENT" ID="{08EBF1E5-ABB6-4F2B-9915-E0C67BCAE836}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="PAST_PRES" ID="{C7E4CF07-0EB9-4B87-B325-C8AB440B267B}"/>
+							<Value>0.15</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

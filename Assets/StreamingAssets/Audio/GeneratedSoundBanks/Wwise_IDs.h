@@ -17,8 +17,15 @@ namespace AK
         static const AkUniqueID FOOTSTEP_STONE = 310261441U;
         static const AkUniqueID FOOTSTEP_WATER = 4154792307U;
         static const AkUniqueID FOOTSTEP_WOOD = 606549629U;
+        static const AkUniqueID MUS_BRASS = 3492974204U;
+        static const AkUniqueID MUS_HARPE = 686963831U;
+        static const AkUniqueID MUS_STRING = 4154371538U;
+        static const AkUniqueID MUS_WIND_A = 2810169327U;
+        static const AkUniqueID MUS_WIND_B = 2810169324U;
+        static const AkUniqueID START_LVL = 1065371724U;
         static const AkUniqueID UI_CLOCK_TOPAST = 1702484864U;
         static const AkUniqueID UI_CLOCK_TOPRES = 1666516870U;
+        static const AkUniqueID UI_KEYS_PICKUP = 2097617581U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

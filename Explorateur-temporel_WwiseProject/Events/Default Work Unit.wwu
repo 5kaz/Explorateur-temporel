@@ -29,6 +29,17 @@
 						</Event>
 						<Event Name="UI_Select" ID="{B1628209-6686-4AAA-B990-2067F30ED94C}"/>
 						<Event Name="UI_Cursor_moove" ID="{E5E2FC3F-515A-40A5-B6C1-5FB908211300}"/>
+						<Event Name="UI_Keys_pickup" ID="{11B85CE4-3ADC-47AA-A357-AF4CF476190D}">
+							<ChildrenList>
+								<Action Name="" ID="{6B1DA179-30AD-4396-9DBD-3BEBF92701C3}" ShortID="926964246">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Keys_pickup" ID="{5A7EEC07-4B48-43BB-84E5-92A5DEB3E318}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PLAYER" ID="{5D715F08-44CE-4FAE-BD73-7F519EB3E278}" ShortID="668175812">
@@ -81,6 +92,35 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SET_PAST" ID="{A978E7D6-2431-4A41-82D4-E75815630797}">
+							<ChildrenList>
+								<Action Name="" ID="{EDF25174-2437-4215-A388-D0FA6491C8CC}" ShortID="132490001">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PAST_PRES" ID="{C7E4CF07-0EB9-4B87-B325-C8AB440B267B}" WorkUnitID="{4AC83D6E-A4AE-41CB-BE3F-0A2C766EA146}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SET_PRESENT" ID="{08EBF1E5-ABB6-4F2B-9915-E0C67BCAE836}">
+							<ChildrenList>
+								<Action Name="" ID="{C7509F19-4E50-45FF-AC95-F3974D4223B8}" ShortID="654803937">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PAST_PRES" ID="{C7E4CF07-0EB9-4B87-B325-C8AB440B267B}" WorkUnitID="{4AC83D6E-A4AE-41CB-BE3F-0A2C766EA146}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="START_LVL" ID="{E72129C2-3828-4C79-9295-44697FFF4BD7}">
@@ -95,8 +135,91 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{034B37E4-E9A5-4CE1-A20E-D5EAAE258203}" ShortID="950904871">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC" ID="{BBA3448B-8FAD-4329-96A2-5A8FD4EFBECD}" WorkUnitID="{84D936D4-A4CD-4CE0-90E7-492153952901}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="MUSIC" ID="{156DD655-E9A2-4B24-A606-1804265F5DC4}" ShortID="1019851566">
+					<ChildrenList>
+						<Event Name="MUS_Brass" ID="{8E2DBEE4-FF32-498B-A053-DCB061E9E7E5}">
+							<ChildrenList>
+								<Action Name="" ID="{8B49BE42-22FB-41DA-A22C-CBAD8A610F92}" ShortID="321879827">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Brass" ID="{0076F3D7-0866-4E4F-BF4E-3F8A0246B150}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Harpe" ID="{ED91C847-9720-4034-A805-5C3EE833BEAB}">
+							<ChildrenList>
+								<Action Name="" ID="{DD7C47F9-D571-4007-AAC3-386235D3BFE1}" ShortID="50308497">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Harpe" ID="{5F9269A1-B25E-4806-BC8C-316BF5F87C4B}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_String" ID="{3EBE7712-2FB2-4F07-8698-87E3E429F2B0}">
+							<ChildrenList>
+								<Action Name="" ID="{DDD230A4-47D8-4A8E-B566-0081E85417E2}" ShortID="862379497">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_String_low" ID="{5DC4CC32-FE9E-4010-BBC8-31254E3B512E}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E3B84324-5D51-49C0-A504-CCD89EEACA07}" ShortID="155713210">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_String_med" ID="{EDB6EA2C-4C0D-4369-B65A-7802A3F3F01A}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A68E41CA-0490-4B40-A9DF-DF4FF545F417}" ShortID="477443175">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_String_high" ID="{CC34731C-B192-400E-B0A2-97841A7D4D3C}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Wind_A" ID="{E17BEA0C-100F-40B6-BC31-246FFCA4A16E}">
+							<ChildrenList>
+								<Action Name="" ID="{CE5FA0F7-3B9D-4372-A6A4-868844A0D119}" ShortID="983352635">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Wind_A" ID="{4680405D-6184-44B0-B460-144587E6688A}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Wind_B" ID="{B94883AF-1464-4C7C-8E9B-6AC52A835ADD}">
+							<ChildrenList>
+								<Action Name="" ID="{44888255-CABD-4529-9C9F-0E86523CF597}" ShortID="848941645">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Wind_B" ID="{7B21D48C-D3C0-4EAF-943A-51C8A189C6AB}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
