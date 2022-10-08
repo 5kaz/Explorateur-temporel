@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //PlayerPrefs.DeleteKey("timePlayed"); // TODO remove this
+        PlayerPrefs.DeleteKey("timePlayed"); // TODO remove this
         //PlayerPrefs.SetInt("timePlayed", 3); // TODO remove this
 
         int timePlayed = PlayerPrefs.GetInt("timePlayed", -1);
