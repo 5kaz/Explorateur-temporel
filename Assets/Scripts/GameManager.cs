@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     Checkpoint lastSavedCheckpoint;
     [SerializeField]
     ControlsHelper controlsHelper;
+    [SerializeField] PlayerMovement playerMovement;
+    [SerializeField] PastFutureSwitch switchTime;
 
     [SerializeField]
     GameObject player;
@@ -54,12 +56,16 @@ public class GameManager : MonoBehaviour
 
     public void GoBackToLastCheckpoint()
     {
-        
         CharacterController cc = player.GetComponent<CharacterController>();
         cc.enabled = false;
         player.transform.position = new Vector3(PlayerPrefs.GetFloat("cp_x"), player.transform.position.y, PlayerPrefs.GetFloat("cp_z"));
         cc.enabled = true;
+        Invoke("ActivateControls", 0.5f);
+    }
 
-        //TODO Teleportation effects
+    public void ActivateControls()
+    {
+        playerMovement.enabled = true;
+        switchTime.enabled = true;
     }
 }
