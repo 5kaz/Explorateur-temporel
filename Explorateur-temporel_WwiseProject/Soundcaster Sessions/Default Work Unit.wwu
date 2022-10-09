@@ -26,7 +26,7 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SET_PAST" ID="{A978E7D6-2431-4A41-82D4-E75815630797}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+							<ObjectRef Name="UI_Clock_toPast" ID="{7EC9F51A-6F9B-46BE-91E3-5EEB36D4302A}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -34,12 +34,12 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SET_PRESENT" ID="{08EBF1E5-ABB6-4F2B-9915-E0C67BCAE836}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="SET_PAST" ID="{A978E7D6-2431-4A41-82D4-E75815630797}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="UI_Clock_toPast" ID="{7EC9F51A-6F9B-46BE-91E3-5EEB36D4302A}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
-							<Position X="2" Y="1"/>
+							<ObjectRef Name="SET_PRESENT" ID="{08EBF1E5-ABB6-4F2B-9915-E0C67BCAE836}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

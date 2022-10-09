@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 0f7a1fcaa0aa8844b7d9e664180cf54a
     GuidInternal: 
-    m_lastTime: -8585363162107818186
+    m_lastTime: -8585363068302476085
     List:
     - name: Main
       guid: 5130e4ba484d454fa3792c2d1e12f172
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51c84a0afacb114ea759d5a1a14552c8
     GuidInternal: 
-    m_lastTime: -8585363145193101424
+    m_lastTime: -8585362983116408785
     List:
     - name: AMB
       guid: 98781fca908ca44c936f55405762d00a
@@ -385,6 +385,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: UI_Clock_couldown
+      guid: efcb553f4c59f1448acb7ad43423bf4d
+      id: 2079023322
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: UI_Clock_couldown
+        ObjectType: 3
+        guid: efcb553f4c59f1448acb7ad43423bf4d
+      Path: Events\Default Work Unit\UI_Clock_couldown
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: UI_Clock_toPast
       guid: 1af5c97e9b6fbe4691e35eeb36d4302a
       id: 1702484864
@@ -557,8 +574,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585363845104841414
     List: []
-  ExpandedFileSystemItemIds: 02000000030000000500000006000000070000000a0000000f000000100000001100000012000000160000001f00000020000000
-  ExpandedWaapiItemIds: 010000000200000003000000050000000600000007000000090000000f00000010000000110000001200000013000000160000002100000022000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

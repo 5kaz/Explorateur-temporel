@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Explorateur-temporel_WwiseProject" GUID="{8F6F166F-956B-42A1-A86E-E0EB73F47D3A}" Generator="2022.1.0.7985"/>
+	<CacheRoot>../../../../Explorateur-temporel_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{14DDCCFF-50A8-41E6-A7DD-8310B6833098}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Explorateur-temporel_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{4DFC2610-BB22-49B3-A150-15D8F65F89EC}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Explorateur-temporel_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{62BBC9F2-B9FD-4F48-AD26-71E539561A84}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{374304B7-8309-D1F8-506C-9DA98C10F76E}</FileHash>
+</ProjectInfo>
