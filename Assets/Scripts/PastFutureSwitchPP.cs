@@ -12,8 +12,10 @@ public class PastFutureSwitchPP : MonoBehaviour
     Vignette vignette;
     LensDistortion lensDistortion;
     ChromaticAberration chromaticAberration;
-    Bloom bloom; 
-    
+    Bloom bloom;
+    [SerializeField] public Material skyboxPast;
+    [SerializeField] public Material skyboxPresent;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -85,6 +87,14 @@ public class PastFutureSwitchPP : MonoBehaviour
     public void StartTransition(bool pastToFuture)
     {
         this.pastToFuture = pastToFuture;
+        if (pastToFuture)
+        {
+            RenderSettings.skybox = skyboxPresent;
+        }
+        else
+        {
+            RenderSettings.skybox = skyboxPast;
+        }
         startSwitch = 0;
     }
 }

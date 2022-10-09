@@ -9,11 +9,15 @@ public class PlayerMovement : MonoBehaviour
     //[SerializeField] PlayerAnimation playerAnim;
     private PlayerAnimation animationObject;
     private Vector2 old_direction = Vector2.zero;
+    private GameManager gm;
+    private float timeStamp;
 
     // Start is called before the first frame update
     void Start()
     {
         animationObject = FindObjectOfType<PlayerAnimation>();
+        gm = FindObjectOfType<GameManager>();
+        timeStamp = Time.time;
     }
 
     // Update is called once per frame
@@ -42,6 +46,14 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2 direction = new Vector2(z, x);
 
+        if (direction.magnitude > 0)
+        {
+            if (timeStamp <= Time.time)
+            {
+                timeStamp = Time.time + 0.25f;
+                gm.RunFootstepsSound();
+            }
+        }
         if (direction != old_direction)
         {
             animationObject.SetDirection(direction);
