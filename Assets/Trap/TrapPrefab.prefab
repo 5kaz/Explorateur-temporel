@@ -746,6 +746,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6749ffc905bcc8b458a6bd005de501f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Trap_Sound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fae8b7370ad49e2408026d3c04f6e7f0, type: 2}
   pics: {fileID: 1593382153338767334}
   maxPicsMove: 1.3
 --- !u!1 &1593382153712269491
