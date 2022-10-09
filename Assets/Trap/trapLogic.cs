@@ -11,12 +11,12 @@ public class trapLogic : MonoBehaviour
     [SerializeField] private float maxPicsMove = 2;
     private float picsMove = 0;
     private bool reset = false;
-    private Vector3 initialPosition;
+    private float initialPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        initialPosition = pics.transform.position;
+        initialPosition = pics.transform.position.y;
     }
 
     // Update is called once per frame
@@ -31,11 +31,12 @@ public class trapLogic : MonoBehaviour
             if (picsMove > maxPicsMove)
             {
                 movePics = false;
+                picsMove = 0;
             }
         }
         if (reset)
         {
-            pics.transform.position = initialPosition;
+            pics.transform.position += new Vector3(0,initialPosition,0);
             reset = false;
         }
     }
