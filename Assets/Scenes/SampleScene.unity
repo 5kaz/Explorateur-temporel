@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58834ad96761c1f49bcb4907b2b04a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 170850903}
   switchTime: {fileID: 1684967713}
   gameManager: {fileID: 2067612261}
 --- !u!225 &166233557
@@ -1884,6 +1884,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 9d9e954d783249d4f97d5ff2a2c8df9b, type: 2}
+  SET_PAST:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dd8c38ceb696eec468728417af9d3604, type: 2}
+  SET_PRESENT:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 35a30888829e924438d6c20fc773677c, type: 2}
 --- !u!114 &1684967715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2643,6 +2651,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061205031}
   m_CullTransparentMesh: 1
+--- !u!1001 &2063086389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.3124814
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.194326
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.8423635
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758422, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382152721758425, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: m_Name
+      value: TrapPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593382153525051284, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
+      propertyPath: Trap_Sound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: fae8b7370ad49e2408026d3c04f6e7f0, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ca673af5aa74184090af50a5fbccee5, type: 3}
 --- !u!1 &2067612260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,6 +2745,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 61d421888d204a54cade8614c283c1e3, type: 2}
+  SetInitialTime:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dd8c38ceb696eec468728417af9d3604, type: 2}
   controlsHelper: {fileID: 816841940}
   playerMovement: {fileID: 170850903}
   switchTime: {fileID: 1684967713}

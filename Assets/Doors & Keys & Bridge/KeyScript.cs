@@ -5,7 +5,7 @@ using UnityEngine;
 public class KeyScript : MonoBehaviour
 {
     [SerializeField] private float rotationSpeed = 1;
-    [SerializeField] private string keyColor;
+    [SerializeField] private string keyColor;   
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,9 @@ public class KeyScript : MonoBehaviour
         PlayerKeySystem PlayerKeyScript = other.gameObject.GetComponent<PlayerKeySystem>();
         if (PlayerKeyScript != null)
         {
+ 
             PlayerKeyScript.GetKey(keyColor);
+
             Destroy(gameObject);
         }
     }
