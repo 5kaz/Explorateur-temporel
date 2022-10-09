@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DeadScreen : MonoBehaviour
@@ -9,7 +10,13 @@ public class DeadScreen : MonoBehaviour
     private bool dead = false;
     private float fadeSpeed = 1.0f;
     private float timeStamp;
-    private string[] deathSamplePhrases;
+    private string[] deathSamplePhrases = {
+         "Bien fait pour vous ! Votre ame hantera desormais ces murs pour l’eternite, dans la solitude et le froid. Heureusement pour vous, vous ne ressentirez pas le froid.",
+         "Les fantomes du passe se sont acharnes sur votre ame. Faute de richesses, vous ne connaitrez que le neant. Ca vous apprendra, a essayer de piller honteusement les ressources archeologiques !",
+         "En vous reveillant, vous vous retrouvez au milieu d’ectoplasmes qui se foutent de votre gueule. Il semblerait que vous ne soyez pas le premier a avoir essaye de piller le tresor… Ils vous tendent une biere fantome et vous accueille chaleureusement. Ce n’est pas si mal finalement : a defaut d’argent et de revoir un jour votre famille, vous vous etes faits de nouveaux amis.",
+         "Serieusement ? Vous n’aviez pas vu ce piege ? Pensez a vous acheter des lunettes avant la prochaine exploration. Ah oui. Il n’y en aura pas de prochaine.",
+         "Soyez contents : peu d’aventuriers ont connu une mort aussi rapide. Vous ne l’etes pas ? Dommage ! Vous ne pouvez vous en prendre qu’a vous-meme… et recommencer.",
+    };
 
     [SerializeField] PlayerMovement player;
     [SerializeField] PastFutureSwitch switchTime;
@@ -42,6 +49,7 @@ public class DeadScreen : MonoBehaviour
 
     public void DisplayDeadScreen()
     {
+        transform.GetChild(0).transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = this.deathSamplePhrases[Random.Range(0, 5)];
         display = true;
         player.enabled = false;
         switchTime.enabled = false;
