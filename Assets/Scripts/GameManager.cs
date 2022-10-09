@@ -22,8 +22,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.DeleteAll(); // TODO remove this
-        //PlayerPrefs.SetInt("timePlayed", 3); // TODO remove this
+        AkSoundEngine.SetRTPCValue("PAST_PRES", 0.0f, AkSoundEngine.AK_INVALID_GAME_OBJECT);
 
 
         //INIT SOUNDS
@@ -85,5 +84,10 @@ public class GameManager : MonoBehaviour
     {
         playerMovement.enabled = true;
         switchTime.enabled = true;
+    }
+
+    public void Win()
+    {
+
     }
 }
