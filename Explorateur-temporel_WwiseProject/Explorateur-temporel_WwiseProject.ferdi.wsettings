@@ -160,7 +160,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{C1BEF16A-8A64-4CE3-B743-B951FF2DD7B9}"/>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{E6CB9BF5-F391-46EA-A203-67DC512ECC8E}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>
