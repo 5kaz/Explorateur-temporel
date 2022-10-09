@@ -14,7 +14,7 @@ public class KeyScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.Rotate(0, rotationSpeed, 0);
     }

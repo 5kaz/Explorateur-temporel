@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 
     public AK.Wwise.Event Start_LVL;
     public AK.Wwise.Event SetInitialTime;
+    public AK.Wwise.Event Footsteps;
 
     Checkpoint lastSavedCheckpoint;
     [SerializeField]
@@ -48,7 +50,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey("escape")){
+            SceneManager.LoadScene("Menu");
+        }
+    }
+
+    public void RunFootstepsSound()
+    {
+        Footsteps.Post(gameObject);
     }
 
     public void SaveCheckpoint(Vector3 position, bool display)
