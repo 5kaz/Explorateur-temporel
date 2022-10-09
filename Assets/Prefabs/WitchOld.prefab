@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 6127587682545098529}
   - component: {fileID: 6127587682545098541}
   m_Layer: 0
-  m_Name: Witch
+  m_Name: WitchOld
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
