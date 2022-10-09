@@ -10,6 +10,9 @@ public class PastFutureSwitch : MonoBehaviour
     [SerializeField] public PastFutureSwitchPP pastFutureSwitchPP;
     private float timeStamp;
 
+    public AK.Wwise.Event UI_Clock_toPast;
+    public AK.Wwise.Event UI_Clock_toPresent;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,7 @@ public class PastFutureSwitch : MonoBehaviour
                 vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, -20f, 0f));
                 player.GetComponent<CharacterController>().enabled = true;
                 vcamSwitchObject.enabled = true;
+                this.UI_Clock_toPast.Post(gameObject);
 
                 PostProcessingEffects(1);
             }
@@ -50,6 +54,8 @@ public class PastFutureSwitch : MonoBehaviour
                 vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, 20f, 0f));
                 player.GetComponent<CharacterController>().enabled = true;
                 vcamSwitchObject.enabled = true;
+                this.UI_Clock_toPresent.Post(gameObject);
+
                 PostProcessingEffects(0);
             }
         }
