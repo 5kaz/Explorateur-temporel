@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
 
     public AK.Wwise.Event Start_LVL;
+    public AK.Wwise.Event SetInitialTime;
+
     Checkpoint lastSavedCheckpoint;
     [SerializeField]
     ControlsHelper controlsHelper;
@@ -24,6 +26,7 @@ public class GameManager : MonoBehaviour
 
         //INIT SOUNDS
         Start_LVL.Post(gameObject);
+        SetInitialTime.Post(gameObject);
 
         int timePlayed = PlayerPrefs.GetInt("timePlayed", -1);
 
