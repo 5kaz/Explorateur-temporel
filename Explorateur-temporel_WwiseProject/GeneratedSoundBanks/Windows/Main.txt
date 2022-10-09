@@ -1,0 +1,127 @@
+Event	ID	Name			Wwise Object Path	Notes
+	310261441	Footstep_stone			\Default Work Unit\Footstep_stone	
+	606549629	Footstep_wood			\Default Work Unit\Footstep_wood	
+	686963831	MUS_Harpe			\Default Work Unit\MUS_Harpe	
+	834494377	UI_Cursor_moove			\Default Work Unit\UI_Cursor_moove	
+	1065371724	START_LVL			\Default Work Unit\START_LVL	
+	1101408834	SET_PAST			\Default Work Unit\SET_PAST	
+	1117531639	AMB			\Default Work Unit\AMB	
+	1666516870	UI_Clock_toPres			\Default Work Unit\UI_Clock_toPres	
+	1702484864	UI_Clock_toPast			\Default Work Unit\UI_Clock_toPast	
+	2079023322	UI_Clock_couldown			\Default Work Unit\UI_Clock_couldown	
+	2097617581	UI_Keys_pickup			\Default Work Unit\UI_Keys_pickup	
+	2623080059	SET_PRESENT			\Default Work Unit\SET_PRESENT	
+	2774129122	UI_Select			\Default Work Unit\UI_Select	
+	2810169324	MUS_Wind_B			\Default Work Unit\MUS_Wind_B	
+	2810169327	MUS_Wind_A			\Default Work Unit\MUS_Wind_A	
+	3116409464	SFX_Trap			\Default Work Unit\SFX_Trap	
+	3492974204	MUS_Brass			\Default Work Unit\MUS_Brass	
+	4154371538	MUS_String			\Default Work Unit\MUS_String	
+	4154792307	Footstep_water			\Default Work Unit\Footstep_water	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3309483646	PAST_PRES			\Default Work Unit\PAST_PRES	
+
+Effect plug-ins	ID	Name	Type				Notes
+	18498618	Space_Dreaming (Custom)	Wwise RoomVerb			
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	536602212	Hall_Large_Dark (Custom)	Wwise RoomVerb			
+	724118805	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	774223844	RoomVerb (Custom)	Wwise RoomVerb			
+	3164629247	Holy	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23779104	MUS_Stg_high_04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_high_04_EF3F924B.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_high\MUS_Stg_high_04		6269572
+	81048794	MUS_wind_A_05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_A_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_A\MUS_wind_A_05		3686496
+	82654447	SFX_water_walk07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk07_D0E82572.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk07		77708
+	120488178	MUS_wind_B_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_B_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_B\MUS_wind_B_02		5222496
+	165226279	UI_Keys_pickup_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\UI_Keys_pickup_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Keys_pickup\UI_Keys_pickup_03		98250
+	180896829	MUS_wind_A_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_A_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_A\MUS_wind_A_01		3072096
+	227589923	SFX_water_walk01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk01_D6004413.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk01		71924
+	228420317	MUS_wind_B_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_B_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_B\MUS_wind_B_01		5222496
+	230679176	MUS_Stg_med_05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_med_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_05		3072096
+	242779810	UI_Keys_pickup_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\UI_Keys_pickup_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Keys_pickup\UI_Keys_pickup_02		110432
+	255695363	MUS_Stg_med_06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_med_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_06		3072096
+	257307624	SFX_wood_walk05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk05_54F67197.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk05		44472
+	278529841	SFX_water_walk10	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk10		83152
+	283360086	UI_Clock_Couldown	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\UI_Clock_Couldown_905A29EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clock_Couldown		137572
+	309826148	SFX_water_walk05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk05_531D99C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk05		78588
+	331199288	MUS_Stg_med_07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_med_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_07		3072096
+	332208263	SFX_wood_walk09	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk09_8A513701.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk09		43604
+	363338586	SFX_stone_walk04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_stone_walk04_0862E0EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_stone\SFX_stone_walk04		31032
+	365498536	SFX_wood_walk02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk02_1449E350.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk02		40360
+	368862133	SFX_water_walk02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk02		102764
+	370146242	SFX_wood_walk08	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk08_F9BDDF69.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk08		32176
+	389980878	SFX_stone_walk01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_stone_walk01_3F87E360.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_stone\SFX_stone_walk01		53528
+	438552993	SFX_wood_walk01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk01_7717CA80.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk01		43220
+	455370830	MUS_Stg_high_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_high_01_6C25BEBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_high\MUS_Stg_high_01		6269572
+	468246312	SFX_stone_walk02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_stone_walk02_BC2687E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_stone\SFX_stone_walk02		29724
+	468339197	SFX_wood_walk04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk04_17EB930F.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk04		40952
+	474591875	SFX_stone_walk06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_stone_walk06_92A01584.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_stone\SFX_stone_walk06		32212
+	530043103	SFX_water_walk09	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk09_50EEA4B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk09		69744
+	533339735	SFX_wood_walk06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk06_72B94CF9.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk06		43016
+	586303674	UI_Clock_toPresent	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\UI_Clock_toPresent_1247D879.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clock_toPresent		327832
+	599111526	SFX_water_walk03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk03_24EAFA61.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk03		100188
+	605031914	MUS_Stg_med_04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_med_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_04		3072096
+	638813761	SFX_wood_walk03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk03_E02976CD.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk03		39044
+	658233615	SFX_water_walk04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk04_C04B04AA.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk04		108420
+	660426670	MUS_wind_A_04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_A_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_A\MUS_wind_A_04		3686496
+	720102740	MUS_Stg_high_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_high_02_E6080A13.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_high\MUS_Stg_high_02		6204672
+	762088343	SFX_Trap	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_Trap_3DB59A0E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Trap		188172
+	763882737	SFX_stone_walk03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_stone_walk03_1D2E200E.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_stone\SFX_stone_walk03		32160
+	799006786	SFX_wood_walk07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk07_BA1B4466.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk07		47608
+	805525481	MUS_Stg_med_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_med_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_03		3072096
+	821261915	MUS_Stg_high_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_high_03_77DE9D5D.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_high\MUS_Stg_high_03		6295532
+	851077590	UI_Keys_pickup_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\UI_Keys_pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Keys_pickup\UI_Keys_pickup_01		71592
+	862308351	MUS_wind_A_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_A_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_A\MUS_wind_A_03		3686496
+	867361904	MUS_Stg_med_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_med_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_02		3072096
+	932567349	SFX_water_walk08	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk08_5B8DC71C.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk08		53768
+	941973285	SFX_water_walk06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_water_walk06_544064EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk06		65808
+	960008867	MUS_Stg_med_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_med_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_01		3072096
+	961589469	SFX_stone_walk05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_stone_walk05_1BED90CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_stone\SFX_stone_walk05		39660
+	993098626	UI_Clock_toPast	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\UI_Clock_toPast_E7DD45E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clock_toPast		403308
+	1002969874	SFX_stone_walk07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_stone_walk07_71DEDC78.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_stone\SFX_stone_walk07		35140
+	1023517065	MUS_wind_B_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_B_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_B\MUS_wind_B_03		5222496
+	1051067362	MUS_wind_A_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_wind_A_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Wind_A\MUS_wind_A_02		3686496
+	1073736698	SFX_wood_walk10	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\SFX_wood_walk10_33A343A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk10		39748
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	16452112	MUS_harp_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_03_10C4C929.wem	16452112.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_03	
+	73087167	MUS_Stg_low_05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_low_05_10C4C929.wem	73087167.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_low\MUS_Stg_low_05	
+	75880264	AMB_bellOneht_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_bellOneht_01_E95C51AB.wem	75880264.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_bell\AMB_bellOneht_01	
+	115026613	MUS_harp_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_02_10C4C929.wem	115026613.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_02	
+	142508146	MUS_brass_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_brass_02_10C4C929.wem	142508146.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Brass\MUS_brass_02	
+	215232237	AMB_Windchimes_dist_04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Windchimes_dist_04_7BD18E98.wem	215232237.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_WdChimes_distant\AMB_Windchimes_dist_04	
+	256447766	AMB_Windchimes_dist_07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Windchimes_dist_07_9B1692BA.wem	256447766.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_WdChimes_distant\AMB_Windchimes_dist_07	
+	258233630	MUS_Stg_low_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_low_01_10C4C929.wem	258233630.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_low\MUS_Stg_low_01	
+	266063967	AMB_Cave_Windgust_05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Cave_Windgust_05_10C4C929.wem	266063967.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Present\AMB_Present_windgust\AMB_Cave_Windgust_05	
+	294592149	AMB_Windchimes_dist_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Windchimes_dist_03_8A4AA1AA.wem	294592149.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_WdChimes_distant\AMB_Windchimes_dist_03	
+	328005774	AMB_ringing_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_ringing_01_E56CFF6C.wem	328005774.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_Misc\AMB_ringing_01	
+	330449822	AMB_Cave_Windgust_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Cave_Windgust_03_10C4C929.wem	330449822.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Present\AMB_Present_windgust\AMB_Cave_Windgust_03	
+	370417980	MUS_harp_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_01_10C4C929.wem	370417980.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_01	
+	389150782	AMB_Windchimes_dist_06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Windchimes_dist_06_9E02CA57.wem	389150782.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_WdChimes_distant\AMB_Windchimes_dist_06	
+	390441209	MUS_brass_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_brass_01_10C4C929.wem	390441209.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Brass\MUS_brass_01	
+	394551303	MUS_Stg_low_06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_low_06_10C4C929.wem	394551303.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_low\MUS_Stg_low_06	
+	405032744	AMB_Cave_Windgust_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Cave_Windgust_01_10C4C929.wem	405032744.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Present\AMB_Present_windgust\AMB_Cave_Windgust_01	
+	434610950	MUS_Stg_low_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_low_02_10C4C929.wem	434610950.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_low\MUS_Stg_low_02	
+	464385513	MUS_Stg_low_04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_low_04_10C4C929.wem	464385513.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_low\MUS_Stg_low_04	
+	534908831	AMB_Cave_Windgust_04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Cave_Windgust_04_10C4C929.wem	534908831.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Present\AMB_Present_windgust\AMB_Cave_Windgust_04	
+	561601008	AMB_bellOneht_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_bellOneht_03_69EECEFE.wem	561601008.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_bell\AMB_bellOneht_03	
+	585131270	AMB_Windchimes_dist_05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Windchimes_dist_05_A24682DB.wem	585131270.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_WdChimes_distant\AMB_Windchimes_dist_05	
+	608662090	AMB_Cave_Wind	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Cave_Wind_D79FB2B7.wem	608662090.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Present\AMB_Cave_Wind	
+	627862224	MUS_Stg_low_07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_low_07_10C4C929.wem	627862224.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_low\MUS_Stg_low_07	
+	649906056	AMB_Forest_day_wind01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Forest_day_wind01_D79FB2B7.wem	649906056.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Forest_day_wind01	
+	652486248	AMB_Cave_Windgust_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Cave_Windgust_02_10C4C929.wem	652486248.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Present\AMB_Present_windgust\AMB_Cave_Windgust_02	
+	683342263	AMB_ringing_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_ringing_02_00B03C16.wem	683342263.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_Misc\AMB_ringing_02	
+	692944903	MUS_harp_05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_05_10C4C929.wem	692944903.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_05	
+	789598022	AMB_bell_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_bell_01_65156629.wem	789598022.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_Misc\AMB_bell_01	
+	876725542	MUS_harp_09	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_09_10C4C929.wem	876725542.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_09	
+	891219352	MUS_harp_08	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_08_10C4C929.wem	891219352.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_08	
+	922691867	AMB_bellOneht_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_bellOneht_02_A321FE76.wem	922691867.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_bell\AMB_bellOneht_02	
+	968096480	MUS_harp_04	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_04_10C4C929.wem	968096480.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_04	
+	968925768	MUS_harp_07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_07_10C4C929.wem	968925768.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_07	
+	993087017	AMB_Windchimes_dist_02	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Windchimes_dist_02_C3D962AA.wem	993087017.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_WdChimes_distant\AMB_Windchimes_dist_02	
+	993226856	AMB_Windchimes_dist_01	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\AMB_Windchimes_dist_01_F8C2B62F.wem	993226856.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB\AMB_Past\AMB_Past_WdChimes_distant\AMB_Windchimes_dist_01	
+	1042364818	MUS_Stg_low_03	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_Stg_low_03_10C4C929.wem	1042364818.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_low\MUS_Stg_low_03	
+	1056197316	MUS_harp_06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Windows\SFX\MUS_harp_06_10C4C929.wem	1056197316.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_Harpe\MUS_harp_06	
+
