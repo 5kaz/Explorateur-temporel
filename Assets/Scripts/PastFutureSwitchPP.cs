@@ -6,6 +6,8 @@ using UnityEngine.Rendering.Universal;
 
 public class PastFutureSwitchPP : MonoBehaviour
 {
+    [SerializeField] public Material skyboxPast;
+    [SerializeField] public Material skyboxPresent;
     private bool pastToFuture;
     private int startSwitch = -1;
     private float speed = 0.8f;
@@ -86,5 +88,16 @@ public class PastFutureSwitchPP : MonoBehaviour
     {
         this.pastToFuture = pastToFuture;
         startSwitch = 0;
+
+        if (pastToFuture)
+        {
+            RenderSettings.skybox = skyboxPresent;
+            DynamicGI.UpdateEnvironment();
+        }
+        else
+        {
+            RenderSettings.skybox = skyboxPast;
+            DynamicGI.UpdateEnvironment();
+        }
     }
 }
