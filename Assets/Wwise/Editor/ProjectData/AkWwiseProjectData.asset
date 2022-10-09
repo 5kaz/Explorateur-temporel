@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 0f7a1fcaa0aa8844b7d9e664180cf54a
     GuidInternal: 
-    m_lastTime: -8585363524564224278
+    m_lastTime: -8585363162107818186
     List:
     - name: Main
       guid: 5130e4ba484d454fa3792c2d1e12f172
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51c84a0afacb114ea759d5a1a14552c8
     GuidInternal: 
-    m_lastTime: -8585363496716807434
+    m_lastTime: -8585363145193101424
     List:
     - name: AMB
       guid: 98781fca908ca44c936f55405762d00a
@@ -106,13 +106,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: WORLD
-        ObjectType: 4
-        guid: ec5d9b5f3bd94c4898dca466a5711fa6
       - ElementName: AMB
         ObjectType: 3
         guid: 98781fca908ca44c936f55405762d00a
-      Path: Events\Default Work Unit\WORLD\AMB
+      Path: Events\Default Work Unit\AMB
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -126,13 +123,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: PLAYER
-        ObjectType: 4
-        guid: 085f715dce44ae4fbd737f519eb3e278
       - ElementName: Footstep_stone
         ObjectType: 3
         guid: a650358cc42aa94ab3e2962e02db0464
-      Path: Events\Default Work Unit\PLAYER\Footstep_stone
+      Path: Events\Default Work Unit\Footstep_stone
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -146,13 +140,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: PLAYER
-        ObjectType: 4
-        guid: 085f715dce44ae4fbd737f519eb3e278
       - ElementName: Footstep_water
         ObjectType: 3
         guid: 85b994a407e4664e82d6a0da9417ddb5
-      Path: Events\Default Work Unit\PLAYER\Footstep_water
+      Path: Events\Default Work Unit\Footstep_water
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -166,13 +157,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: PLAYER
-        ObjectType: 4
-        guid: 085f715dce44ae4fbd737f519eb3e278
       - ElementName: Footstep_wood
         ObjectType: 3
         guid: 2398d3064d00d14cbefbec18ed14a2c0
-      Path: Events\Default Work Unit\PLAYER\Footstep_wood
+      Path: Events\Default Work Unit\Footstep_wood
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -186,13 +174,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: MUSIC
-        ObjectType: 4
-        guid: 55d66d15a2e9244ba6061804265f5dc4
       - ElementName: MUS_Brass
         ObjectType: 3
         guid: e4be2d8e32ff8b49a053dcb061e9e7e5
-      Path: Events\Default Work Unit\MUSIC\MUS_Brass
+      Path: Events\Default Work Unit\MUS_Brass
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -206,13 +191,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: MUSIC
-        ObjectType: 4
-        guid: 55d66d15a2e9244ba6061804265f5dc4
       - ElementName: MUS_Harpe
         ObjectType: 3
         guid: 47c891ed20973440a8055c3ee833beab
-      Path: Events\Default Work Unit\MUSIC\MUS_Harpe
+      Path: Events\Default Work Unit\MUS_Harpe
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -226,13 +208,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: MUSIC
-        ObjectType: 4
-        guid: 55d66d15a2e9244ba6061804265f5dc4
       - ElementName: MUS_String
         ObjectType: 3
         guid: 1277be3eb22f074f869887e3e429f2b0
-      Path: Events\Default Work Unit\MUSIC\MUS_String
+      Path: Events\Default Work Unit\MUS_String
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -246,13 +225,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: MUSIC
-        ObjectType: 4
-        guid: 55d66d15a2e9244ba6061804265f5dc4
       - ElementName: MUS_Wind_A
         ObjectType: 3
         guid: 0cea7be10f10b640bc31246ffca4a16e
-      Path: Events\Default Work Unit\MUSIC\MUS_Wind_A
+      Path: Events\Default Work Unit\MUS_Wind_A
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -266,13 +242,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: MUSIC
-        ObjectType: 4
-        guid: 55d66d15a2e9244ba6061804265f5dc4
       - ElementName: MUS_Wind_B
         ObjectType: 3
         guid: af8348b964147c4c8e9b6ac52a835add
-      Path: Events\Default Work Unit\MUSIC\MUS_Wind_B
+      Path: Events\Default Work Unit\MUS_Wind_B
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -320,13 +293,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: WORLD
-        ObjectType: 4
-        guid: ec5d9b5f3bd94c4898dca466a5711fa6
       - ElementName: SET_PAST
         ObjectType: 3
         guid: d6e778a93124414a82d4e75815630797
-      Path: Events\Default Work Unit\WORLD\SET_PAST
+      Path: Events\Default Work Unit\SET_PAST
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -340,13 +310,44 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: WORLD
-        ObjectType: 4
-        guid: ec5d9b5f3bd94c4898dca466a5711fa6
       - ElementName: SET_PRESENT
         ObjectType: 3
         guid: e5f1eb08b6ab2b4f9915e0c67bcae836
-      Path: Events\Default Work Unit\WORLD\SET_PRESENT
+      Path: Events\Default Work Unit\SET_PRESENT
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX
+      guid: 2240618dabe97b4fa4e6b5855c142364
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 2240618dabe97b4fa4e6b5855c142364
+      Path: Events\Default Work Unit\SFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX_Trap
+      guid: 8fc9dc033d9a7841aba5c42e2bb8f383
+      id: 3116409464
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: SFX_Trap
+        ObjectType: 3
+        guid: 8fc9dc033d9a7841aba5c42e2bb8f383
+      Path: Events\Default Work Unit\SFX_Trap
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -394,13 +395,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: UI
-        ObjectType: 4
-        guid: 37b4ac960fd1c0469b490f9e0698a574
       - ElementName: UI_Clock_toPast
         ObjectType: 3
         guid: 1af5c97e9b6fbe4691e35eeb36d4302a
-      Path: Events\Default Work Unit\UI\UI_Clock_toPast
+      Path: Events\Default Work Unit\UI_Clock_toPast
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -414,13 +412,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: UI
-        ObjectType: 4
-        guid: 37b4ac960fd1c0469b490f9e0698a574
       - ElementName: UI_Clock_toPres
         ObjectType: 3
         guid: a9d4e49dd7594e4fa9a97550fadb6bf6
-      Path: Events\Default Work Unit\UI\UI_Clock_toPres
+      Path: Events\Default Work Unit\UI_Clock_toPres
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -434,13 +429,27 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: UI
-        ObjectType: 4
-        guid: 37b4ac960fd1c0469b490f9e0698a574
       - ElementName: UI_Cursor_moove
         ObjectType: 3
         guid: 3ffce2e55a51a540b6c15fb908211300
-      Path: Events\Default Work Unit\UI\UI_Cursor_moove
+      Path: Events\Default Work Unit\UI_Cursor_moove
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI_Keys_pickup
+      guid: e45cb811dc3aaa47a357af4cf476190d
+      id: 2097617581
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51c84a0afacb114ea759d5a1a14552c8
+      - ElementName: UI_Keys_pickup
+        ObjectType: 3
+        guid: e45cb811dc3aaa47a357af4cf476190d
+      Path: Events\Default Work Unit\UI_Keys_pickup
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -454,13 +463,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 51c84a0afacb114ea759d5a1a14552c8
-      - ElementName: UI
-        ObjectType: 4
-        guid: 37b4ac960fd1c0469b490f9e0698a574
       - ElementName: UI_Select
         ObjectType: 3
         guid: 098262b18666aa4ab9902067f30ed94c
-      Path: Events\Default Work Unit\UI\UI_Select
+      Path: Events\Default Work Unit\UI_Select
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -551,8 +557,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585363845104841414
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000005000000060000000700000008000000090000000a0000000b00000013000000a53a01001a550100
-  ExpandedWaapiItemIds: 020000000300000005000000060000000700000008000000090000000a0000000b000000130000005801000059010000a53a01001a550100
+  ExpandedFileSystemItemIds: 02000000030000000500000006000000070000000a0000000f000000100000001100000012000000160000001f00000020000000
+  ExpandedWaapiItemIds: 010000000200000003000000050000000600000007000000090000000f00000010000000110000001200000013000000160000002100000022000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

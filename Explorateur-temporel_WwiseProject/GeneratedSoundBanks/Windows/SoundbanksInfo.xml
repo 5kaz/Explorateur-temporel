@@ -25,7 +25,7 @@
 				<GameParameter Id="3309483646" Name="PAST_PRES"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5D09C64B-DFD6-A9BB-4F9C-9DC39D8F0E5A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E9DD7106-C529-FDF3-A4BE-F3CAEA5ECFBB}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -657,5 +657,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7100E614-E716-999F-1552-026018BB9912}</FileHash>
+	<FileHash>{C744587E-8C4D-6674-3E87-473E4CCCA336}</FileHash>
 </SoundBanksInfo>
