@@ -6,6 +6,8 @@ using UnityEngine.Rendering.Universal;
 
 public class PastFutureSwitchPP : MonoBehaviour
 {
+    [SerializeField] public Material skyboxPast;
+    [SerializeField] public Material skyboxPresent;
     private bool pastToFuture;
     private int startSwitch = -1;
     private float speed = 0.8f;
@@ -13,8 +15,6 @@ public class PastFutureSwitchPP : MonoBehaviour
     LensDistortion lensDistortion;
     ChromaticAberration chromaticAberration;
     Bloom bloom;
-    [SerializeField] public Material skyboxPast;
-    [SerializeField] public Material skyboxPresent;
 
     // Start is called before the first frame update
     void Start()
@@ -87,14 +87,17 @@ public class PastFutureSwitchPP : MonoBehaviour
     public void StartTransition(bool pastToFuture)
     {
         this.pastToFuture = pastToFuture;
+        startSwitch = 0;
+
         if (pastToFuture)
         {
             RenderSettings.skybox = skyboxPresent;
+            DynamicGI.UpdateEnvironment();
         }
         else
         {
             RenderSettings.skybox = skyboxPast;
+            DynamicGI.UpdateEnvironment();
         }
-        startSwitch = 0;
     }
 }
