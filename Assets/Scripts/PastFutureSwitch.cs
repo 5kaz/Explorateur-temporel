@@ -8,6 +8,12 @@ public class PastFutureSwitch : MonoBehaviour
     [SerializeField] public Transform player;
     [SerializeField] public Cinemachine.CinemachineVirtualCamera vcamSwitchObject;
     [SerializeField] public PastFutureSwitchPP pastFutureSwitchPP;
+
+    [SerializeField] public GameObject PastGroup;
+    [SerializeField] public GameObject FutureGroup;
+
+
+
     private float timeStamp;
 
     public AK.Wwise.Event UI_Clock_toPast;
@@ -39,6 +45,8 @@ public class PastFutureSwitch : MonoBehaviour
 
                 if (hitColliders.Length ==0)
                 {
+                    PastGroup.SetActive(true);
+                    FutureGroup.SetActive(false);
                     vcamSwitchObject.enabled = false;
                     player.GetComponent<CharacterController>().enabled = false;
                     player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - 20, player.transform.position.z);
@@ -64,6 +72,8 @@ public class PastFutureSwitch : MonoBehaviour
 
                 if (hitColliders.Length == 0)
                 {
+                    PastGroup.SetActive(false);
+                    FutureGroup.SetActive(true);
                     vcamSwitchObject.enabled = false;
                     player.GetComponent<CharacterController>().enabled = false;
                     player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 20, player.transform.position.z);
