@@ -6,12 +6,14 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour {
     
+    public  AK.Wwise.Event menuMusic;
     public GameObject continuer;
     void Start(){
         if (PlayerPrefs.GetFloat("cp_x", 9999.99f) != 9999.99f) // No current game saved
         {
             continuer.GetComponent<Button>().interactable = true;
         }
+        menuMusic.Post(gameObject);
     }
 
     public void ResetGame()
@@ -20,7 +22,8 @@ public class MainMenu : MonoBehaviour {
     }
     public void startGame()
     {
-        SceneManager.LoadScene(0);
+        menuMusic.Stop(gameObject);
+        SceneManager.LoadScene(1);
     }
 
     public void exitGame()
