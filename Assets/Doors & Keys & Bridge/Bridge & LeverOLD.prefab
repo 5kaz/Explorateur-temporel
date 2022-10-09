@@ -263,7 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6567851977355054024}
   m_Layer: 0
-  m_Name: Bridge & Lever
+  m_Name: Bridge & LeverOLD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
