@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour {
     }
     public void startGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Intro");
     }
 
     public void exitGame()
