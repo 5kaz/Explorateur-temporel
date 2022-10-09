@@ -154,6 +154,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{E329FE62-BF6D-4688-95A4-54C316A0CEAF}" ShortID="286912614">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SET_PRESENT" ID="{08EBF1E5-ABB6-4F2B-9915-E0C67BCAE836}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="UI_Clock_toPast" ID="{7EC9F51A-6F9B-46BE-91E3-5EEB36D4302A}">
@@ -162,6 +172,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI_Clock_toPast" ID="{BEFAB3DD-B3A3-4360-B57B-19CB3A34EE22}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DF15681F-2D3A-4149-8D5D-123AD7FD458D}" ShortID="958424275">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SET_PAST" ID="{A978E7D6-2431-4A41-82D4-E75815630797}" WorkUnitID="{0A4AC851-CBFA-4E11-A759-D5A1A14552C8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -215,6 +235,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PAST_PRES" ID="{C7E4CF07-0EB9-4B87-B325-C8AB440B267B}" WorkUnitID="{4AC83D6E-A4AE-41CB-BE3F-0A2C766EA146}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Clock_couldown" ID="{3F55CBEF-594C-44F1-8ACB-7AD43423BF4D}">
+					<ChildrenList>
+						<Action Name="" ID="{8E2874E6-4F98-4474-A392-663885C6A55C}" ShortID="769047184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Clock_Couldown" ID="{9668AA1B-931C-41A5-BA47-A6809B0DC975}" WorkUnitID="{A2C4071B-C2B1-45A9-8003-8209A709B2A5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

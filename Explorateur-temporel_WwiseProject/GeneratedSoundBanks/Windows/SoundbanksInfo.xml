@@ -25,7 +25,7 @@
 				<GameParameter Id="3309483646" Name="PAST_PRES"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E9DD7106-C529-FDF3-A4BE-F3CAEA5ECFBB}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{261084A5-7014-51A0-F043-C37836779823}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -95,17 +95,9 @@
 					<ShortName>MUS_Stg_med_05.wav</ShortName>
 					<CachePath>SFX/MUS_Stg_med_05_10C4C929.wem</CachePath>
 				</File>
-				<File Id="240172882" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Door_open_02.wav</ShortName>
-					<CachePath>SFX/SFX_Door_open_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="242779810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Keys_pickup_02.wav</ShortName>
 					<CachePath>SFX/UI_Keys_pickup_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="255536820" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Door_open_03.wav</ShortName>
-					<CachePath>SFX/SFX_Door_open_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="255695363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MUS_Stg_med_06.wav</ShortName>
@@ -133,6 +125,10 @@
 				<File Id="278529841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_water_walk10.wav</ShortName>
 					<CachePath>SFX/SFX_water_walk10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="283360086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Clock_Couldown.wav</ShortName>
+					<CachePath>SFX/UI_Clock_Couldown_905A29EC.wem</CachePath>
 				</File>
 				<File Id="294592149" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Windchimes_dist_03.wav</ShortName>
@@ -263,10 +259,6 @@
 					<ShortName>UI_Clock_toPresent.wav</ShortName>
 					<CachePath>SFX/UI_Clock_toPresent_1247D879.wem</CachePath>
 				</File>
-				<File Id="593590151" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Door_open_01.wav</ShortName>
-					<CachePath>SFX/SFX_Door_open_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="599111526" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_water_walk03.wav</ShortName>
 					<CachePath>SFX/SFX_water_walk03_24EAFA61.wem</CachePath>
@@ -320,6 +312,10 @@
 				<File Id="720102740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MUS_Stg_high_02.wav</ShortName>
 					<CachePath>SFX/MUS_Stg_high_02_E6080A13.wem</CachePath>
+				</File>
+				<File Id="762088343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Trap.wav</ShortName>
+					<CachePath>SFX/SFX_Trap_3DB59A0E.wem</CachePath>
 				</File>
 				<File Id="763882737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_stone_walk03.wav</ShortName>
@@ -492,11 +488,6 @@
 						<MediaRef Id="961589469"/>
 						<MediaRef Id="1002969874"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="774223844"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="4154792307" Name="Footstep_water" DurationType="OneShot" DurationMin="0.2795388" DurationMax="0.56418186">
 					<MediaRefs>
@@ -518,11 +509,6 @@
 						<MediaRef Id="961589469"/>
 						<MediaRef Id="1002969874"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="774223844"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="606549629" Name="Footstep_wood" DurationType="OneShot" DurationMin="0.17927812" DurationMax="0.26551703">
 					<MediaRefs>
@@ -548,11 +534,6 @@
 						<MediaRef Id="142508146"/>
 						<MediaRef Id="390441209"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="536602212"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="686963831" Name="MUS_Harpe" DurationType="OneShot" DurationMin="4.8" DurationMax="14.4">
 					<MediaRefs>
@@ -566,11 +547,6 @@
 						<MediaRef Id="968925768"/>
 						<MediaRef Id="1056197316"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="536602212"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="4154371538" Name="MUS_String" DurationType="OneShot" DurationMin="32.315495" DurationMax="32.78873">
 					<MediaRefs>
@@ -608,11 +584,6 @@
 						<MediaRef Id="862308351"/>
 						<MediaRef Id="1051067362"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="536602212"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="2810169324" Name="MUS_Wind_B" DurationType="OneShot" DurationMin="27.2" DurationMax="27.2">
 					<MediaRefs>
@@ -620,27 +591,41 @@
 						<MediaRef Id="228420317"/>
 						<MediaRef Id="1023517065"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="536602212"/>
-						</Custom>
-					</PluginRefs>
+				</Event>
+				<Event Id="1101408834" Name="SET_PAST" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2623080059" Name="SET_PRESENT" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3116409464" Name="SFX_Trap" DurationType="OneShot" DurationMin="1.066202" DurationMax="1.066202">
+					<MediaRefs>
+						<MediaRef Id="762088343"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1065371724" Name="START_LVL" DurationType="Infinite">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1117531639" Name="AMB"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="2079023322" Name="UI_Clock_couldown" DurationType="OneShot" DurationMin="0.79448265" DurationMax="0.79448265">
+					<MediaRefs>
+						<MediaRef Id="283360086"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1702484864" Name="UI_Clock_toPast" DurationType="OneShot" DurationMin="2.100051" DurationMax="2.100051">
 					<MediaRefs>
 						<MediaRef Id="993098626"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1101408834" Name="SET_PAST"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="1666516870" Name="UI_Clock_toPres" DurationType="OneShot" DurationMin="1.7069652" DurationMax="1.7069652">
 					<MediaRefs>
 						<MediaRef Id="586303674"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2623080059" Name="SET_PRESENT"/>
+					</ActionPostEvent>
 				</Event>
+				<Event Id="834494377" Name="UI_Cursor_moove" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2097617581" Name="UI_Keys_pickup" DurationType="OneShot" DurationMin="1.022448" DurationMax="1.022448">
 					<MediaRefs>
 						<MediaRef Id="165226279"/>
@@ -648,14 +633,12 @@
 						<MediaRef Id="851077590"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2774129122" Name="UI_Select" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
-			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
-			</Busses>
 			<GameParameters>
 				<GameParameter Id="3309483646" Name="PAST_PRES"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C744587E-8C4D-6674-3E87-473E4CCCA336}</FileHash>
+	<FileHash>{B9B959B7-950C-1910-9228-3A4803B0CDD0}</FileHash>
 </SoundBanksInfo>

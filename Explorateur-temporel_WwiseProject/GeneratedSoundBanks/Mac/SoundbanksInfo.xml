@@ -25,7 +25,7 @@
 				<GameParameter Id="3309483646" Name="PAST_PRES"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{09CE3C31-2EA1-39A7-AC3D-646FDC5764B3}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{261084A5-7014-51A0-F043-C37836779823}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -125,6 +125,10 @@
 				<File Id="278529841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_water_walk10.wav</ShortName>
 					<CachePath>SFX/SFX_water_walk10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="283360086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Clock_Couldown.wav</ShortName>
+					<CachePath>SFX/UI_Clock_Couldown_905A29EC.wem</CachePath>
 				</File>
 				<File Id="294592149" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Windchimes_dist_03.wav</ShortName>
@@ -484,11 +488,6 @@
 						<MediaRef Id="961589469"/>
 						<MediaRef Id="1002969874"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="774223844"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="4154792307" Name="Footstep_water" DurationType="OneShot" DurationMin="0.2795388" DurationMax="0.56418186">
 					<MediaRefs>
@@ -524,6 +523,11 @@
 						<MediaRef Id="799006786"/>
 						<MediaRef Id="1073736698"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="774223844"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3492974204" Name="MUS_Brass" DurationType="OneShot" DurationMin="27.2" DurationMax="27.2">
 					<MediaRefs>
@@ -600,15 +604,26 @@
 						<ActionPostEventEntry Id="1117531639" Name="AMB"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="2079023322" Name="UI_Clock_couldown" DurationType="OneShot" DurationMin="0.79448265" DurationMax="0.79448265">
+					<MediaRefs>
+						<MediaRef Id="283360086"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1702484864" Name="UI_Clock_toPast" DurationType="OneShot" DurationMin="2.100051" DurationMax="2.100051">
 					<MediaRefs>
 						<MediaRef Id="993098626"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1101408834" Name="SET_PAST"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="1666516870" Name="UI_Clock_toPres" DurationType="OneShot" DurationMin="1.7069652" DurationMax="1.7069652">
 					<MediaRefs>
 						<MediaRef Id="586303674"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2623080059" Name="SET_PRESENT"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="834494377" Name="UI_Cursor_moove" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2097617581" Name="UI_Keys_pickup" DurationType="OneShot" DurationMin="1.022448" DurationMax="1.022448">
@@ -625,5 +640,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E345C211-2647-1627-6F0D-A360F15AEF5E}</FileHash>
+	<FileHash>{E8B7727F-3653-46C1-3E0E-45C7A6AB9D76}</FileHash>
 </SoundBanksInfo>

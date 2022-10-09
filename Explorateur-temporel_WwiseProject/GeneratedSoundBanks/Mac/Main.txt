@@ -1,22 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
-	310261441	Footstep_stone			\Default Work Unit\PLAYER\Footstep_stone	
-	606549629	Footstep_wood			\Default Work Unit\PLAYER\Footstep_wood	
-	686963831	MUS_Harpe			\Default Work Unit\MUSIC\MUS_Harpe	
-	834494377	UI_Cursor_moove			\Default Work Unit\UI\UI_Cursor_moove	
+	310261441	Footstep_stone			\Default Work Unit\Footstep_stone	
+	606549629	Footstep_wood			\Default Work Unit\Footstep_wood	
+	686963831	MUS_Harpe			\Default Work Unit\MUS_Harpe	
+	834494377	UI_Cursor_moove			\Default Work Unit\UI_Cursor_moove	
 	1065371724	START_LVL			\Default Work Unit\START_LVL	
-	1101408834	SET_PAST			\Default Work Unit\WORLD\SET_PAST	
-	1117531639	AMB			\Default Work Unit\WORLD\AMB	
-	1666516870	UI_Clock_toPres			\Default Work Unit\UI\UI_Clock_toPres	
-	1702484864	UI_Clock_toPast			\Default Work Unit\UI\UI_Clock_toPast	
-	2097617581	UI_Keys_pickup			\Default Work Unit\UI\UI_Keys_pickup	
-	2623080059	SET_PRESENT			\Default Work Unit\WORLD\SET_PRESENT	
-	2774129122	UI_Select			\Default Work Unit\UI\UI_Select	
-	2810169324	MUS_Wind_B			\Default Work Unit\MUSIC\MUS_Wind_B	
-	2810169327	MUS_Wind_A			\Default Work Unit\MUSIC\MUS_Wind_A	
-	3116409464	SFX_Trap			\Default Work Unit\SFX\SFX_Trap	
-	3492974204	MUS_Brass			\Default Work Unit\MUSIC\MUS_Brass	
-	4154371538	MUS_String			\Default Work Unit\MUSIC\MUS_String	
-	4154792307	Footstep_water			\Default Work Unit\PLAYER\Footstep_water	
+	1101408834	SET_PAST			\Default Work Unit\SET_PAST	
+	1117531639	AMB			\Default Work Unit\AMB	
+	1666516870	UI_Clock_toPres			\Default Work Unit\UI_Clock_toPres	
+	1702484864	UI_Clock_toPast			\Default Work Unit\UI_Clock_toPast	
+	2079023322	UI_Clock_couldown			\Default Work Unit\UI_Clock_couldown	
+	2097617581	UI_Keys_pickup			\Default Work Unit\UI_Keys_pickup	
+	2623080059	SET_PRESENT			\Default Work Unit\SET_PRESENT	
+	2774129122	UI_Select			\Default Work Unit\UI_Select	
+	2810169324	MUS_Wind_B			\Default Work Unit\MUS_Wind_B	
+	2810169327	MUS_Wind_A			\Default Work Unit\MUS_Wind_A	
+	3116409464	SFX_Trap			\Default Work Unit\SFX_Trap	
+	3492974204	MUS_Brass			\Default Work Unit\MUS_Brass	
+	4154371538	MUS_String			\Default Work Unit\MUS_String	
+	4154792307	Footstep_water			\Default Work Unit\Footstep_water	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3309483646	PAST_PRES			\Default Work Unit\PAST_PRES	
@@ -43,6 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	255695363	MUS_Stg_med_06	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Mac\SFX\MUS_Stg_med_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_06		3072096
 	257307624	SFX_wood_walk05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Mac\SFX\SFX_wood_walk05_54F67197.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk05		44472
 	278529841	SFX_water_walk10	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Mac\SFX\SFX_water_walk10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk10		83152
+	283360086	UI_Clock_Couldown	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Mac\SFX\UI_Clock_Couldown_905A29EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clock_Couldown		137572
 	309826148	SFX_water_walk05	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Mac\SFX\SFX_water_walk05_531D99C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_water\Footsteps_floding\SFX_water_walk05		78588
 	331199288	MUS_Stg_med_07	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Mac\SFX\MUS_Stg_med_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUS_String_med\MUS_Stg_med_07		3072096
 	332208263	SFX_wood_walk09	F:\Github projects\Explorateur-temporel\Explorateur-temporel_WwiseProject\.cache\Mac\SFX\SFX_wood_walk09_8A513701.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Footsteps\Footsteps_wood\SFX_wood_walk09		43604

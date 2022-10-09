@@ -8,7 +8,7 @@ public class DeadScreen : MonoBehaviour
     private CanvasGroup cg;
     private bool display = false;
     private bool dead = false;
-    private float fadeSpeed = 1.0f;
+    private float fadeSpeed = 0.5f;
     private float timeStamp;
     private string[] deathSamplePhrases = {
          "Bien fait pour vous ! Votre ame hantera desormais ces murs pour l’eternite, dans la solitude et le froid. Heureusement pour vous, vous ne ressentirez pas le froid.",
