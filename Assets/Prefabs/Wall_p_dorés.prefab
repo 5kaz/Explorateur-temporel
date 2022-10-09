@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7052375915335675668}
   - component: {fileID: 6228699367794368689}
   - component: {fileID: 8184234983469454459}
+  - component: {fileID: -719601070283475266}
   m_Layer: 0
   m_Name: "Wall_p_dor\xE9s"
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-719601070283475266
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7679976755362936238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.9999999, z: 0.9999999}
+  m_Center: {x: 0, y: 0, z: 0.49999994}
