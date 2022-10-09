@@ -32,7 +32,7 @@ public class IntroSceneManager : MonoBehaviour
                 
             } else
             {
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("SampleSceneClem 1");
             }
         }
     }

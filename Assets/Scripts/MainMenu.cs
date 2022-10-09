@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour {
     public void startGame()
     {
         menuMusic.Stop(gameObject);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Intro");
     }
 
     public void exitGame()
