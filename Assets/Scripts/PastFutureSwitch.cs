@@ -34,32 +34,53 @@ public class PastFutureSwitch : MonoBehaviour
 
             if (player.position.y > 19) // TO PAST
             {
-                vcamSwitchObject.enabled = false;
-                player.GetComponent<CharacterController>().enabled = false;
-                player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - 20, player.transform.position.z);
-                vcamSwitchObject.LookAt = player;
-                vcamSwitchObject.Follow = player;
-                vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, -20f, 0f));
-                player.GetComponent<CharacterController>().enabled = true;
-                vcamSwitchObject.enabled = true;
-                UI_Clock_toPast.Post(gameObject);
-                SET_PAST.Post(gameObject);
-                PostProcessingEffects(1);
+                Vector3 childPosition = player.transform.Find("playerRealPosition").gameObject.transform.position;
+                Collider[] hitColliders = Physics.OverlapSphere(new Vector3(childPosition.x, childPosition.y - 20 , childPosition.z),0);
+
+                if (hitColliders.Length ==0)
+                {
+                    vcamSwitchObject.enabled = false;
+                    player.GetComponent<CharacterController>().enabled = false;
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - 20, player.transform.position.z);
+                    vcamSwitchObject.LookAt = player;
+                    vcamSwitchObject.Follow = player;
+                    vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, -20f, 0f));
+                    player.GetComponent<CharacterController>().enabled = true;
+                    vcamSwitchObject.enabled = true;
+                    UI_Clock_toPast.Post(gameObject);
+                    SET_PAST.Post(gameObject);
+                    PostProcessingEffects(1);
+                } else
+                {
+                    Debug.Log("CANT SWAP");
+                }
+
+
             }
             else // TO PRESENT
             {
-                vcamSwitchObject.enabled = false;
-                player.GetComponent<CharacterController>().enabled = false;
-                player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 20, player.transform.position.z);
-                vcamSwitchObject.LookAt = player;
-                vcamSwitchObject.Follow = player;
-                vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, 20f, 0f));
-                player.GetComponent<CharacterController>().enabled = true;
-                vcamSwitchObject.enabled = true;
-                UI_Clock_toPresent.Post(gameObject);
-                SET_PRESENT.Post(gameObject);
+                Vector3 childPosition = player.transform.Find("playerRealPosition").gameObject.transform.position;
+                Collider[] hitColliders = Physics.OverlapSphere(new Vector3(childPosition.x, childPosition.y + 20, childPosition.z), 0);
 
-                PostProcessingEffects(0);
+                if (hitColliders.Length == 0)
+                {
+                    vcamSwitchObject.enabled = false;
+                    player.GetComponent<CharacterController>().enabled = false;
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 20, player.transform.position.z);
+                    vcamSwitchObject.LookAt = player;
+                    vcamSwitchObject.Follow = player;
+                    vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, 20f, 0f));
+                    player.GetComponent<CharacterController>().enabled = true;
+                    vcamSwitchObject.enabled = true;
+                    UI_Clock_toPresent.Post(gameObject);
+                    SET_PRESENT.Post(gameObject);
+                    PostProcessingEffects(0);
+                } else
+                {
+                    Debug.Log("CANT SWAP");
+                }
+
+                
             }
         }
     }
