@@ -41,7 +41,7 @@ public class PastFutureSwitch : MonoBehaviour
             if (player.position.y > 19) // TO PAST
             {
                 Vector3 childPosition = player.transform.Find("playerRealPosition").gameObject.transform.position;
-                Collider[] hitColliders = Physics.OverlapSphere(new Vector3(childPosition.x, childPosition.y - 20 , childPosition.z),0);
+                Collider[] hitColliders = Physics.OverlapSphere(new Vector3(childPosition.x, childPosition.y - 19 , childPosition.z),0);
 
                 if (hitColliders.Length ==0)
                 {
@@ -49,10 +49,10 @@ public class PastFutureSwitch : MonoBehaviour
                     FutureGroup.SetActive(false);
                     vcamSwitchObject.enabled = false;
                     player.GetComponent<CharacterController>().enabled = false;
-                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - 20, player.transform.position.z);
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y - 19, player.transform.position.z);
                     vcamSwitchObject.LookAt = player;
                     vcamSwitchObject.Follow = player;
-                    vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, -20f, 0f));
+                    vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, -19f, 0f));
                     player.GetComponent<CharacterController>().enabled = true;
                     vcamSwitchObject.enabled = true;
                     UI_Clock_toPast.Post(gameObject);
@@ -68,7 +68,7 @@ public class PastFutureSwitch : MonoBehaviour
             else // TO PRESENT
             {
                 Vector3 childPosition = player.transform.Find("playerRealPosition").gameObject.transform.position;
-                Collider[] hitColliders = Physics.OverlapSphere(new Vector3(childPosition.x, childPosition.y + 20, childPosition.z), 0);
+                Collider[] hitColliders = Physics.OverlapSphere(new Vector3(childPosition.x, childPosition.y + 19, childPosition.z), 0);
 
                 if (hitColliders.Length == 0)
                 {
@@ -76,10 +76,10 @@ public class PastFutureSwitch : MonoBehaviour
                     FutureGroup.SetActive(true);
                     vcamSwitchObject.enabled = false;
                     player.GetComponent<CharacterController>().enabled = false;
-                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 20, player.transform.position.z);
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 19, player.transform.position.z);
                     vcamSwitchObject.LookAt = player;
                     vcamSwitchObject.Follow = player;
-                    vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, 20f, 0f));
+                    vcamSwitchObject.OnTargetObjectWarped(player, new Vector3(0f, 21f, 0f));
                     player.GetComponent<CharacterController>().enabled = true;
                     vcamSwitchObject.enabled = true;
                     UI_Clock_toPresent.Post(gameObject);
