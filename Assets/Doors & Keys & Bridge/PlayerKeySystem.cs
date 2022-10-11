@@ -14,6 +14,8 @@ public class PlayerKeySystem : MonoBehaviour
     [SerializeField] private Vector3 firstKeyPosition;
 
     [SerializeField] private Dictionary<string, Image> mapStringkeyUI = new Dictionary<string, Image>();
+
+    public AK.Wwise.Event KeyPickUpSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class PlayerKeySystem : MonoBehaviour
 
     public void GetKey(string _color)
     {
+        KeyPickUpSound.Post(gameObject);
         Debug.Log("GET Key " + _color);
         KeysList.Add(_color);
 

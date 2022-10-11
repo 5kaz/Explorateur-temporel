@@ -752,6 +752,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: fae8b7370ad49e2408026d3c04f6e7f0, type: 2}
   pics: {fileID: 1593382153338767334}
   maxPicsMove: 1.3
+  trap_mesh: {fileID: 1593382153338767334}
 --- !u!1 &1593382153712269491
 GameObject:
   m_ObjectHideFlags: 0

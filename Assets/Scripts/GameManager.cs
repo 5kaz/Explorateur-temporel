@@ -7,8 +7,10 @@ public class GameManager : MonoBehaviour
 {
 
     public AK.Wwise.Event Start_LVL;
-    public AK.Wwise.Event SetInitialTime;
+    public AK.Wwise.Event SetFutureTime;
+    public AK.Wwise.Event SetPastTime;    
     public AK.Wwise.Event Footsteps;
+    public AK.Wwise.Event TrapWise;
 
     Checkpoint lastSavedCheckpoint;
     [SerializeField]
@@ -27,7 +29,8 @@ public class GameManager : MonoBehaviour
 
         //INIT SOUNDS
         Start_LVL.Post(gameObject);
-        SetInitialTime.Post(gameObject);
+        //SetFutureTime.Post(gameObject);
+        RunFutureSound();
 
         int timePlayed = PlayerPrefs.GetInt("timePlayed", -1);
 
@@ -57,6 +60,22 @@ public class GameManager : MonoBehaviour
     public void RunFootstepsSound()
     {
         Footsteps.Post(gameObject);
+    }
+    public void RunTrapSound()
+    {
+        //Footsteps.Post(gameObject);
+        //TrapWise.Post(gameObject);
+    }
+    public void RunPastSound()
+    {
+        //SetPastTime.Post(gameObject);
+        //Footsteps.Post(gameObject);
+        SetPastTime.Post(gameObject);
+    }
+
+    public void RunFutureSound()
+    {
+        SetFutureTime.Post(gameObject);
     }
 
     public void SaveCheckpoint(Vector3 position, bool display)

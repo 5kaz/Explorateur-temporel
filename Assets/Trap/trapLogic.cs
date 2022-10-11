@@ -12,10 +12,12 @@ public class trapLogic : MonoBehaviour
     private float picsMove = 0;
     private bool reset = false;
     private float initialPosition;
+    //private GameManager gm;
 
     // Start is called before the first frame update
     void Start()
     {
+        //gm = FindObjectOfType<GameManager>();
         initialPosition = pics.transform.position.y;
     }
 
@@ -36,7 +38,9 @@ public class trapLogic : MonoBehaviour
         }
         if (reset)
         {
-            pics.transform.position += new Vector3(0,initialPosition,0);
+            //NOPE pics.transform.position += new Vector3(0,initialPosition,0);
+            pics.transform.position += new Vector3(0, - maxPicsMove, 0);
+            pics.SetActive(false);
             reset = false;
         }
     }
@@ -50,6 +54,7 @@ public class trapLogic : MonoBehaviour
     {  
         if (other.tag == "Player")
         {
+            pics.SetActive(true);
             movePics = true;
             Trap_Sound.Post(gameObject);
             DeadScreen p = FindObjectOfType<DeadScreen>();
